@@ -1,9 +1,9 @@
 {
   "current": {
-    "free_shipping_normal": "£150",
-    "free_shipping_pro": "£100",
-    "free_shipping_whs": "£50",
-    "store_country": "United States",
+    "free_shipping_normal": "$150",
+    "free_shipping_pro": "$100",
+    "free_shipping_whs": "$50",
+    "store_country": "Australia",
     "brand_type": "text",
     "brand_text": "Marque of Brands Store UK",
     "enable_retina": false,
@@ -106,15 +106,7 @@
         "drop-down13.jpg"
       ]
     ],
-    "megamenu_subtitle_header": [
-      "Shop",
-      "Discover",
-      "",
-      "Get",
-      "Marq`s",
-      "How to",
-      "Shop"
-    ],
+    "megamenu_subtitle_header": ["Shop", "Discover", "", "Get", "Marq`s", "How to", "Shop"],
     "enable_new": false,
     "display_fixtop_menu": false,
     "bg_cart_color_fixed_top": "#f02121",
@@ -587,10 +579,10 @@
     "display_quickview_subtotal": true,
     "display_quickview_short_desc": true,
     "cart_notes": true,
-    "ajax_cart": true,
+    "ajax_cart": false,
     "show_shipping_calculator": true,
     "shipping_calculator_heading": "Get shipping estimates",
-    "shipping_calculator_default_country": "United Kingdom",
+    "shipping_calculator_default_country": "Australia",
     "shipping_calculator_submit_button_label": "Calculate Shipping",
     "shipping_calculator_submit_button_label_disabled": "Calculating...",
     "register_text_desc": "Sign up for a free account at Ella Boutique.",
@@ -783,7 +775,7 @@
     "menu_link_image_1": "",
     "menu_link_image_2": "",
     "menu_link_image_3": "",
-    "search_placeholder": "Search",
+    "search_placeholder": "search",
     "menu_link_image": "\/collections",
     "show_featured_product_menu": true,
     "menu_featured_product_list_collection": "top-brands",
@@ -1000,7 +992,9 @@
     "border_color_product_item": "#ff0000",
     "product_item_border": "true",
     "product_main_height": "500",
-    "content_for_index": []
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Default": {
