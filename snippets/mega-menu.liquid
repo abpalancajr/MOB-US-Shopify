@@ -26,7 +26,7 @@
         <p>{{ linklists[link_handle].title }}</p>
       </div>
       <div style="clear: both; float: none"></div>
-      <ul class="inner" style="height: 170px; column-width: 150px; column-count: auto; column-fill: auto; width: auto; border: none;">
+      <ul class="inner" style="height: 250px; column-width: 150px; column-count: auto; column-fill: auto; width: auto; border: none;">
         {% for l in linklists[link_handle].links %}
         <li>
           <a id="{{ l.handle }}" href="{{ l.url }}"{% if l.active %} class="current"{% endif %}>
