@@ -18,6 +18,7 @@
 <span class="shop"> ALL </span>
 </a>
 </div> -->
+
     {% if linklists[link_handle] != empty %}
     <div class="drop-down-menu">
       <div class="drop-down-menu-title">
@@ -31,6 +32,7 @@
           <a id="{{ l.handle }}" href="{{ l.url }}"{% if l.active %} class="current"{% endif %}>
             <span>{{ l.title }}</span></a>
         </li>
+
         {% comment %}
         <div class="inner">
           <!-- Menu level 2 -->
@@ -73,7 +75,8 @@
     {% endif %}
   </div>
 
-  <!--   {% unless settings[style_dropdown_mega_menu] == "style_3" %}
+<!-- 
+{% unless settings[style_dropdown_mega_menu] == "style_3" %}
 <div class="col-2">
 {% if settings[style_dropdown_mega_menu] == "style_1" or settings[style_dropdown_mega_menu] == "style_2" %}
 <div class="col-left">
@@ -103,7 +106,9 @@
 </a>
 </div>
 </div>
-{% endunless %} -->
+{% endunless %}
+-->
+
 </div>
 
 <script>
